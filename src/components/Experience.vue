@@ -3,6 +3,35 @@
     <div class="item">
       <div class="row">
         <div class="col-md-5 col-sm-3">
+          <span class="date">01.2021 - <b>Obecnie</b></span>
+        </div>
+        <div class="col-md-7 col-sm-9 right">
+          <h6>Statscore SP. Z O.O.</h6>
+          <h4>Fullstack developer</h4>
+          <p>
+            W pracy zajmuje się rozwojem aplikacji PWA wykorzystywanej przez
+            scoutów do zbierania danych na żywo ze stadionów, projektem
+            wirtualnego scouta, który zasila bazy danymi od dostawców oraz
+            różnego rodzaju projektami do kontroli zebranych danych. Stak
+            technologiczny to: Vue, Nest, Node
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="row">
+        <div class="col-md-5 col-sm-3">
+          <span class="date">01.2021 - <b>Obecnie</b></span>
+        </div>
+        <div class="col-md-7 col-sm-9 right">
+          <h6>Maciej Górnicki Bearly Software</h6>
+          <h4>Właściciel</h4>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="row">
+        <div class="col-md-5 col-sm-3">
           <span class="date">10.2019 - <b>12.2020</b></span>
         </div>
         <div class="col-md-7 col-sm-9 right">

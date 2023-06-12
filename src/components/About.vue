@@ -1,20 +1,18 @@
 <template>
   <div class="About">
     <div class="aboutMeText">
-      <h5>Mam na imię Maciek. Mam 24 lata.</h5>
+      <h5>Mam na imię Maciek. Mam 26 lat.</h5>
       <p>
         Zaraz po ukończeniu szkoły średniej rozpocząłem pracę w branży IT. Przez
         3 lata pracowałem jako administrator systemów IT, ale to nigdy nie było
-        coś co chciałem robić do końca życia. Od ponad roku pracuje jako
-        Frontend developer, ale programowaniem interesuję się już 5 lat.
-        Ukończyłem studia inżynierskie pierwszego stopnia z informatyki. Moja
-        praca inżynierska nosiła tytuł "Analiza możliwości zastosowania
-        rozwiązań IoT dla potrzeb controlingu parkingu miejskiego". W
-        październiku 2020 roku rozpocząłem studia magisterskie również na
-        kierunku informatyka. W wolnym czasie rozwijam swoje umiejętności w
-        zakresie tworzenia aplikacji internetowych. Ponadto lubię aktywnie
-        spędzać czas wraz ze swoją dziewczyną. Preferuję zdrowy styl życia,
-        siłownia kilka razy w tygodniu to coś co lubię.
+        coś co chciałem robić do końca życia. Od 3 lat pracuje jako programista,
+        ale programowaniem interesuję się już 8 lat. W 2021 roku otworzyłem
+        własną działalność gospodarczą, aby móc pracować również jako
+        freelancer. Ukończyłem studia inżynierskie pierwszego stopnia z
+        informatyki. Moja praca inżynierska nosiła tytuł "Analiza możliwości
+        zastosowania rozwiązań IoT dla potrzeb controlingu parkingu miejskiego".
+        W wolnym czasie rozwijam swoje umiejętności w zakresie tworzenia
+        aplikacji internetowych.
       </p>
     </div>
 

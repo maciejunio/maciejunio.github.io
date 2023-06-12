@@ -3,14 +3,17 @@
     <div class="item">
       <div class="row">
         <div class="col-md-5 col-sm-3">
-          <span class="date">10.2019 - <b>Obecnie</b></span>
+          <span class="date">10.2019 - <b>12.2020</b></span>
         </div>
         <div class="col-md-7 col-sm-9 right">
           <h6>Agora S.A.</h6>
           <h4>Frontend Developer</h4>
           <p>
-            W pracy głównie zajmuję się rozwojem strony <a href="http://sport.pl/" target="_blank">http://sport.pl/</a>.
-            Stak technologiczny to: JavaScript, Vue.js, Nuxt.js, SASS, Git, Docker
+            W pracy głównie zajmowałem się rozwojem strony
+            <a href="http://sport.pl/" target="_blank">http://sport.pl/</a> oraz
+            <a href="https://wyniki.sport.pl/pilka-nozna" target="_blank"
+              >https://wyniki.sport.pl/pilka-nozna</a
+            >. Stak technologiczny to: Vue, Nuxt
           </p>
         </div>
       </div>
@@ -24,12 +27,17 @@
           <h6>Final S.A.</h6>
           <h4>Administrator systemów informatycznych</h4>
           <p>
-            Jako administrator systemów zajmowałem się głównie systemem ERP oraz MES (wsparcie użytkowników, tworzenie nowych modułów, tworzenie raportów), także wszelkiego rodzaju procesy sprzedażowe, logistyczne czy produkcyjne nie są mi obce. Do moich obowiązków należało również opieka nad różnego rodzaju systemami takimi jak serwery Linux, AD, Veem, VMware
+            Jako administrator systemów zajmowałem się głównie systemem ERP oraz
+            MES (wsparcie użytkowników, tworzenie nowych modułów, tworzenie
+            raportów), także wszelkiego rodzaju procesy sprzedażowe, logistyczne
+            czy produkcyjne nie są mi obce. Do moich obowiązków należało również
+            opieka nad różnego rodzaju systemami takimi jak serwery Linux, AD,
+            Veem, VMware
           </p>
         </div>
       </div>
     </div>
-     <div class="item">
+    <div class="item">
       <div class="row">
         <div class="col-md-5 col-sm-3">
           <span class="date">01.2017 - <b>12.2017</b></span>
@@ -38,7 +46,8 @@
           <h6>Final S.A.</h6>
           <h4>Specjalista ds. IT</h4>
           <p>
-            Pracując jako specjalista ds. IT zajmowałem się różnego rodzaju systemami np. serwery Linux, AD, Veem, VMware, ERP, MES
+            Pracując jako specjalista ds. IT zajmowałem się różnego rodzaju
+            systemami np. serwery Linux, AD, Veem, VMware, ERP, MES
           </p>
         </div>
       </div>
@@ -68,13 +77,13 @@ export default {};
 .Experience {
   margin-top: 50px;
   margin-bottom: 80px;
-  @media(max-width: 767px){
+  @media (max-width: 767px) {
     margin-top: 20px;
-  margin-bottom: 40px;
+    margin-bottom: 40px;
   }
-  .item{
+  .item {
     margin-bottom: 50px;
-     @media(max-width: 767px){
+    @media (max-width: 767px) {
       margin-bottom: 20px;
     }
   }
@@ -82,7 +91,7 @@ export default {};
     letter-spacing: 1px;
     padding-top: 15px;
     font-size: 18px;
-    @media(max-width: 767px){
+    @media (max-width: 767px) {
       display: block;
       margin-bottom: 15px;
     }
@@ -93,7 +102,7 @@ export default {};
   }
   .right {
     border-left: 1px solid #eee;
-    @media(max-width: 767px){
+    @media (max-width: 767px) {
       margin-left: 15px;
     }
   }
@@ -138,8 +147,8 @@ export default {};
     line-height: 2;
     margin: 0;
     font-size: 14px;
-    a{
-      color:#d0bb79;
+    a {
+      color: #d0bb79;
       text-decoration: none;
     }
   }

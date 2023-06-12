@@ -56,16 +56,6 @@
             <Education />
           </div>
         </div>
-        <div class="row" id="skills">
-          <div class="col-md-12">
-            <SectionSubHead h5Text="tności" spanText="Umieję" />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <Skills />
-          </div>
-        </div>
       </div>
       <div class="container" id="portfolio">
         <div class="row">
@@ -95,7 +85,6 @@ import SectionSubHead from '@/components/SectionSubHead';
 import About from '@/components/About';
 import Experience from '@/components/Experience';
 import Education from '@/components/Education';
-import Skills from '@/components/Skills';
 import Portfolio from '@/components/Portfolio';
 import Footer from '@/components/Footer';
 
@@ -110,7 +99,6 @@ export default {
     SectionSubHead,
     Experience,
     Education,
-    Skills,
     Portfolio,
     Footer,
   },

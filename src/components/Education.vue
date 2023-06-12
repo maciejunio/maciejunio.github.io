@@ -1,21 +1,5 @@
 <template>
   <div class="Education">
-      <div class="item">
-      <div class="row">
-        <div class="col-md-5 col-sm-3">
-          <span class="date">10.2020 - <b>Obecnie</b></span>
-        </div>
-        <div class="col-md-7 col-sm-9 right">
-          <h6>Studia magisterskie</h6>
-          <h4>
-            Akademia WSB
-          </h4>
-          <p>
-            Po ukończeniu studiów pierwszego stopnia. Postanowiłem udać się na studia magisterskie.
-          </p>
-        </div>
-      </div>
-    </div>
     <div class="item">
       <div class="row">
         <div class="col-md-5 col-sm-3">
@@ -27,7 +11,8 @@
             Akademia WSB
           </h4>
           <p>
-              Ukończyłem studia inżynierskie pierwszego stopnia na kierunku informatyka, ze specjalnością "Inżynieria Internetu Rzeczy".
+            Ukończyłem studia inżynierskie pierwszego stopnia na kierunku
+            informatyka, ze specjalnością "Inżynieria Internetu Rzeczy".
           </p>
         </div>
       </div>
@@ -54,13 +39,13 @@ export default {};
 .Education {
   margin-top: 50px;
   margin-bottom: 80px;
-  @media(max-width: 767px){
+  @media (max-width: 767px) {
     margin-top: 20px;
-  margin-bottom: 40px;
+    margin-bottom: 40px;
   }
   .item {
     margin-bottom: 50px;
-    @media(max-width: 767px){
+    @media (max-width: 767px) {
       margin-bottom: 20px;
     }
   }
@@ -68,7 +53,7 @@ export default {};
     letter-spacing: 1px;
     padding-top: 15px;
     font-size: 18px;
-    @media(max-width: 767px){
+    @media (max-width: 767px) {
       display: block;
       margin-bottom: 15px;
     }
@@ -79,7 +64,7 @@ export default {};
   }
   .right {
     border-left: 1px solid #eee;
-     @media(max-width: 767px){
+    @media (max-width: 767px) {
       margin-left: 15px;
     }
   }

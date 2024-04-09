@@ -1,19 +1,12 @@
+<script setup lang="ts">
+const currentYear = new Date().getFullYear()
+</script>
+
 <template>
   <div class="Footer">
-    <h5>{{ year }} © Maciej Górnicki - Wszelkie prawa zastrzeżone</h5>
+    <h5>{{ currentYear }} © Maciej Górnicki - Wszelkie prawa zastrzeżone</h5>
   </div>
 </template>
-
-<script>
-export default {
-  computed: {
-    year() {
-      const today = new Date();
-      return today.getFullYear();
-    },
-  },
-};
-</script>
 
 <style lang="scss" scoped>
 .Footer {

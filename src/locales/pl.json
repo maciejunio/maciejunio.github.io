@@ -1,0 +1,209 @@
+{
+  "navbar": {
+    "home": "Home",
+    "aboutMe": "O mnie",
+    "experience": "Doświadczenie",
+    "education": "Edukacja",
+    "portfolio": "Portfolio"
+  },
+  "home": {
+    "welcomeText": "Cześć !",
+    "typewriterStrings": [
+      "Nazywam się Maciek Górnicki",
+      "Jestem Frontend Developerem",
+      "Jestem Freelancerem"
+    ],
+    "quote": "Jedynym sposobem na prawdziwą satysfakcję z pracy jest robienie tego, w czego wielkość się wierzy. A jedynym sposobem na robienie rzeczy wielkich jest miłość do tego, co się robi - Steve Jobs"
+  },
+  "aboutMe": {
+    "sectionHead": {
+      "h3Text": "O mnie",
+      "h5Text": "mnie",
+      "spanText": "O"
+    },
+    "header": " Mam na imię Maciek. Mam { birthYear } lat.",
+    "paragraph": "Jestem profesjonalistą w dziedzinie technologii informatycznych, który od ponad dekady pasjonuje się programowaniem. Moje doświadczenie komercyjne obejmuje ponad {experienceYears} lat pracy jako programista oraz 3 lata jako administrator sytemów informatycznych, gdzie zajmowałem się głównie systemem ERP. W 2021 roku podjąłem decyzję o założeniu własnej działalności gospodarczej, co umożliwiło mi rozwój jako freelancer. W wolnym czasie zajmuje się tworzeniem na własne potrzeby rozwiązań w obszarze IoT.",
+    "phone": "Telefon",
+    "location": "Lokalizacja"
+  },
+  "experience": {
+    "sectionHead": {
+      "h3Text": "Doświadczenie",
+      "h5Text": "oświadczenie",
+      "spanText": "D"
+    },
+    "description": "Opis",
+    "mainActivities": "Główne zadania",
+    "timelineItems": [
+      {
+        "dateFrom": "01.2021",
+        "dateTo": "Obecnie",
+        "companyName": "Statscore SP. Z O.O.",
+        "position": "Fullstack developer",
+        "description": "Utrzymywanie i rozwijanie aplikacji do zbierania, przetwarzania i prezentowania danych sportowych.",
+        "mainActivities": [
+          "Projektowanie i implementacja rozwiązań dla backendu i frontendu.",
+          "Integracja z innymi dostawcami danych.",
+          "Pisanie testów jednostkowych oraz testów końcowo-do-końcowych (end-to-end, e2e)."
+        ],
+        "technologies": ["Vue", "NestJs", "RabbitMQ", "MongoDB", "MySQL", "TypeScript", "PWA"]
+      },
+      {
+        "dateFrom": "01.2021",
+        "dateTo": "Obecnie",
+        "companyName": "Maciej Górnicki Bearly Software",
+        "position": "Właściciel",
+        "description": ""
+      },
+      {
+        "dateFrom": "10.2019",
+        "dateTo": "12.2020",
+        "companyName": "Agora S.A.",
+        "position": "Frontend Developer",
+        "description": "Utrzymywanie i rozwijanie stron internetowych www.sport.pl i www.wyniki.sport.pl",
+        "mainActivities": [
+          "Projektowanie i implementacja rozwiązań dla frontendu",
+          "Prace z wiązane z SEO oraz reklamami",
+          "Integracja z interfejsami API dostawców danych",
+          "Pisanie testów jednostkowych oraz testów końcowo-do-końcowych (end-to-end, e2e)."
+        ],
+        "technologies": ["Vue", "Nuxt", "TypeScript"]
+      },
+      {
+        "dateFrom": "01.2018",
+        "dateTo": "10.2019",
+        "companyName": "Final S.A.",
+        "position": "Programista / Administrator systemów informatycznych",
+        "description": "Zarządzanie systemem ERP. Tworzenie różnych rodzajów aplikacji na potrzeby firmy.",
+        "mainActivities": [
+          "Tworzenie aplikacji",
+          "Zarządzanie systemem ERP, usuwanie błędów",
+          "Tworzenie raportów przy użyciu zapytań SQL."
+        ],
+        "technologies": ["SQL", "Python", "jQuery", "IoT"]
+      },
+      {
+        "dateFrom": "09.2017",
+        "dateTo": "12.2017",
+        "companyName": "Final S.A.",
+        "position": "Specjalista ds. IT",
+        "description": "Administrowanie systemami informatycznymi np. serwery Linux, AD, Veem, VMware, ERP, MES"
+      }
+    ]
+  },
+  "education": {
+    "sectionHead": {
+      "h3Text": "Edukacja",
+      "h5Text": "dukacja",
+      "spanText": "E"
+    },
+    "timelineItems": [
+      {
+        "dateFrom": "01.2016",
+        "dateTo": "03.2020",
+        "companyName": "Studia inżynierskie",
+        "position": "Akademia WSB",
+        "description": "Ukończyłem studia inżynierskie pierwszego stopnia na kierunku Informatyka, ze specjalnością Inżynieria Internetu Rzeczy"
+      },
+      {
+        "dateFrom": "09.2014",
+        "dateTo": "04.2016",
+        "companyName": "KIERUNEK: TECHNIK INFORMATYK",
+        "position": "Zespół Szkół Elektronicznych i Informatycznych",
+        "description": ""
+      }
+    ]
+  },
+  "portfolio": {
+    "descriptionText": "Opis",
+    "technologiesText": "Technologie",
+    "items": [
+      {
+        "name": "System logistyczny",
+        "description": "Przykład aplikacji, którą stworzyłem, to System Logistyczny, który został zaprojektowany w celu usprawnienia zarządzania przepływem koszy produkcyjnych dla zleceniodawcy. Wcześniej zleceniodawca miał ograniczoną kontrolę nad ilością koszy wysyłanych do klientów oraz otrzymywanych od dostawców. Aplikacja składa się z dwóch głównych modułów: aplikacji webowej oraz aplikacji mobilnej dostępnej na skanery. W ramach systemu, pracownicy działu logistyki mają możliwość tworzenia dokumentów WZ (Wydanie Zewnętrzne) oraz PZ (Przyjęcie Zewnętrzne) w systemie. Podczas załadunku lub rozładunku TIRa, magazynierzy skanują kody QR koszy za pomocą skanera, które są automatycznie dodawane jako pozycje do odpowiedniego dokumentu WZ lub PZ. Następnie generowany jest dokument, który jest przekazywany kierowcy. System obsługuje kilka lokalizacji i umożliwia śledzenie ilości koszy dostępnych w magazynie. Dodatkowo, aplikacja umożliwia generowanie różnorodnych raportów w formacie Excel, co pozwala na dokładne monitorowanie stanu magazynowego oraz przepływu koszy produkcyjnych. Dzięki temu systemowi, zleceniodawca zyskuje pełną kontrolę nad przepływem towarów, eliminując błędy wynikające z ręcznego monitorowania.",
+        "mainImage": "src/assets/portfolio/system-logistyczny1.png",
+        "images": [
+          "src/assets/portfolio/system-logistyczny1.png",
+          "src/assets/portfolio/system-logistyczny2.png",
+          "src/assets/portfolio/system-logistyczny3.png",
+          "src/assets/portfolio/system-logistyczny4.png",
+          "src/assets/portfolio/system-logistyczny5.png",
+          "src/assets/portfolio/system-logistyczny6.png"
+        ],
+        "technologies": ["Vue", "NestJS", "MongoDB", "Ionic"],
+        "projectDate": "06.2023"
+      },
+      {
+        "name": "Koronawirus w Polsce",
+        "description": "W czasie pandemii koronawirusa, kiedy większość społeczeństwa została skonfrontowana z koniecznością pozostania w domach, postanowiłem wykorzystać ten czas produktywnie poprzez stworzenie strony internetowej umożliwiającej śledzenie aktualnych statystyk dotyczących zachorowań. Projekt ten obejmował kompleksowe zestawienia danych dotyczących liczby przypadków zarówno na poziomie krajowym, jak i międzynarodowym, uwzględniając różnorodne aspekty geograficzne, takie jak województwa i powiaty. Aplikacja została stworzona zarówno w formie aplikacji (PWA), jak i w wersji desktopowej, co umożliwiło użytkownikom łatwy dostęp do potrzebnych informacji na różnych urządzeniach. W ramach projektu stworzyłem również interaktywną mapę Polski. Codziennie aktualizowane dane gwarantowały, że informacje prezentowane na niej były zawsze aktualne, co było kluczowe w kontekście szybko zmieniającej się sytuacji epidemiologicznej. Dodatkowo, na mapie wskazywane były obowiązujące strefy obostrzeń, co było istotną wskazówką dla społeczności lokalnych. Projekt spotkał się z szerokim zainteresowaniem społecznym, osiągając w szczytowym okresie aż 200 tysięcy unikalnych użytkowników miesięcznie. Po około roku od jego uruchomienia, dane statystyczne dostarczane przez aplikację zostały wykorzystane w celach naukowych przez renomowany 'Institute of Biomedical Engineering University of Oxford', co świadczy o wysokiej jakości i użyteczności projektu.",
+        "mainImage": "src/assets/portfolio/koronawirus3.png",
+        "images": [
+          "src/assets/portfolio/koronawirus1.png",
+          "src/assets/portfolio/koronawirus2.png",
+          "src/assets/portfolio/koronawirus3.png",
+          "src/assets/portfolio/koronawirus4.png"
+        ],
+        "technologies": ["Vue", "NestJS", "MongoDB", "Python"],
+        "projectDate": "03.2021"
+      },
+      {
+        "name": "Uratuj spektakl",
+        "description": "Na zlecenie Teatru Nowy w Łodzi miałem przyjemność stworzyć interaktywną grę edukacyjną, dedykowaną najmłodszym miłośnikom teatru.W grze, gracze wcielają się w role czterech pracowników teatru, gdzie każda misja stanowi wyjątkową przygodę. Każdy etap polega na obejrzeniu filmiku przygotowanego przez pracowników teatru, po czym gracze podejmują decyzje dotyczące wyboru ścieżki prowadzącej do spektaklu. Projekt ten nie tylko dostarcza rozrywki, ale także rozwija umiejętności logicznego myślenia oraz kreatywności u najmłodszych uczestników. Poprzez interaktywny charakter gry, dzieci mają okazję poznać kulisy teatru i zrozumieć rolę poszczególnych pracowników za kulisami, co może rozbudzić w nich zainteresowanie kulturą oraz sztuką. Gra ta stanowi nie tylko atrakcyjną formę rozrywki, ale również edukacyjne narzędzie, które integruje zabawę z nauką, inspirując dzieci do odkrywania świata teatru w nowy i interaktywny sposób.",
+        "mainImage": "src/assets/portfolio/uratuj-spektakl1.png",
+        "images": [
+          "src/assets/portfolio/uratuj-spektakl1.png",
+          "src/assets/portfolio/uratuj-spektakl2.png"
+        ],
+        "technologies": ["Vue"],
+        "projectDate": "12.2020",
+        "website": {
+          "name": "nowy.pl/gra/",
+          "url": "https: //nowy.pl/gra/"
+        }
+      },
+      {
+        "name": "System monitoringu",
+        "description": "Wykorzystując technologię Raspberry Pi oraz zestaw czujników temperatury, wilgotności i dymu, stworzyłem innowacyjny system monitorujący kluczowe parametry w serwerowniach. Projekt ten skupia się na ciągłym monitorowaniu warunków środowiskowych w serwerowniach. Dzięki zastosowaniu zaawansowanych czujników, system jest w stanie bieżąco rejestrować temperaturę, wilgotność oraz obecność dymu. W przypadku wykrycia anomalii, takich jak zbyt wysoka lub zbyt niska temperatura, lub pojawienie się dymu, system natychmiast informuje użytkownika poprzez wysłanie powiadomienia SMS oraz powiadomienia w dedykowanej aplikacji mobilnej. Dodatkowo, wszystkie dane pomiarowe są zapisywane do bazy danych, co umożliwia użytkownikowi wgląd w historię pomiarów. Dzięki temu, administratorzy serwerowni mogą śledzić zmiany warunków środowiskowych na przestrzeni czasu i podejmować odpowiednie działania zapobiegawcze w razie potrzeby. Projekt ten nie tylko zapewnia ciągłą ochronę infrastruktury IT poprzez monitorowanie warunków środowiskowych, ale także umożliwia szybką reakcję na wszelkie potencjalne zagrożenia, co przekłada się na zwiększenie niezawodności i bezpieczeństwa działania serwerowni.",
+        "mainImage": "src/assets/portfolio/monitoring4.png",
+        "images": [
+          "src/assets/portfolio/monitoring1.png",
+          "src/assets/portfolio/monitoring2.png",
+          "src/assets/portfolio/monitoring3.png"
+        ],
+        "technologies": ["Raspberry Pi", "Arduino", "Cordova", "Python", "MySQL"],
+        "projectDate": "01.2019"
+      },
+      {
+        "name": "Portal klienta",
+        "description": "W trakcie mojej pracy jako administrator systemów, zauważyłem potrzebę stworzenia nowoczesnego narzędzia, które ułatwiłoby klientom dostęp do istotnych danych. W odpowiedzi na tę potrzebę, postanowiłem opracować innowacyjny portal, który umożliwi klientom bieżące śledzenie swoich faktur, dokumentów WZ oraz zamówień. Zadaniem tego projektu było nie tylko zapewnienie klientom wygodnego dostępu do informacji, ale również stworzenie platformy, która integruje się z systemem ERP, zapewniając płynną wymianę danych. Dzięki temu rozwiązaniu, klienci mogą mieć pewność, że prezentowane informacje są zawsze aktualne i rzetelne. Podczas projektowania tego portalu, kładłem szczególny nacisk na prostotę obsługi oraz intuicyjny interfejs użytkownika. Chciałem, aby nawet osoby nieobeznane z technologią mogły łatwo korzystać z portalu i szybko odnaleźć potrzebne informacje. W trakcie pracy nad tym projektem konsultowałem się z klientami, aby poznać ich potrzeby i oczekiwania. Portal dla klientów, który miałem przyjemność stworzyć, stał się istotnym narzędziem w firmie, umożliwiając podniesienie standardów obsługi klienta oraz budowanie silniejszych relacji z naszymi partnerami biznesowymi.",
+        "mainImage": "src/assets/portfolio/portal-klienta1.png",
+        "images": [
+          "src/assets/portfolio/portal-klienta1.png",
+          "src/assets/portfolio/portal-klienta2.png"
+        ],
+        "technologies": ["MySQL", "Python", "JavaScript"],
+        "projectDate": "04.2019"
+      },
+      {
+        "name": "Portal działu IT",
+        "description": "Pracując wcześniej jako administrator systemów, miałem okazję stworzyć aplikację internetową dla działu IT, która usprawniła pracę w całym dziale. Aplikacja została zaprojektowana z myślą o usprawnieniu zarządzania sprzętem objętym opieką działu IT, procesem wystawiania dokumentów przekazania i odbioru sprzętu oraz tworzenia listy zakupów. W odpowiedzi na wprowadzenie nowej ustawy o ochronie danych osobowych, wzbogaciłem portal o moduł RODO. Ten moduł składa się z rejestru naruszeń, spisu obszarów przetwarzania oraz spisu zbiorów danych osobowych. Dzięki niemu, użytkownicy mogą skutecznie monitorować zgodność z przepisami dotyczącymi ochrony danych osobowych, co przyczynia się do podniesienia bezpieczeństwa i zgodności naszych działań z obowiązującymi regulacjami.",
+        "mainImage": "src/assets/portfolio/portal-it1.png",
+        "images": ["src/assets/portfolio/portal-it1.png", "src/assets/portfolio/portal-it2.png"],
+        "technologies": ["MySQL", "Python", "JavaScript"],
+        "projectDate": "06.2019"
+      },
+      {
+        "name": "Strona wizytówka",
+        "description": "Na zlecenie klienta stworzyłem prostą stronę firmy składającą się ze strony głównej, oraz podstrony z ciekawostkami. Projekt graficzny strony był mojego autorstwa. Do całości dochodzi również autorski CMS pozwalający na dodawanie ciekawostek oraz edytownie elementów na stronie. Strona została napisana przy użyciu standardowych technologii webowych, PHP, MySQL oraz zgodnie z najnowocześniejszymi standardami SEO oraz RWD.",
+        "mainImage": "src/assets/portfolio/ema1.png",
+        "images": ["src/assets/portfolio/ema1.png", "src/assets/portfolio/ema2.png"],
+        "technologies": ["MySQL", "PHP", "JavaScript"],
+        "projectDate": "11.2018",
+        "website": {
+          "name": "pomoc-poszkodowanym.eu/",
+          "url": "https: //pomoc-poszkodowanym.eu/"
+        }
+      }
+    ]
+  }
+}

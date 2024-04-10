@@ -16,6 +16,9 @@ watch(
     portfolioItems.value = tm('portfolio.items')
   }
 )
+function getImgUrl(imagePath: string) {
+  return new URL(`../assets/portfolio/${imagePath}`, import.meta.url).href
+}
 </script>
 
 <template>
@@ -29,7 +32,7 @@ watch(
         @click="router.push({ name: 'Portfolio', params: { id: index + 1 } })"
       >
         <div class="relative image cursor-pointer">
-          <img class="rounded-2xl cursor-pointer" :src="item.mainImage" />
+          <img class="rounded-2xl cursor-pointer" :src="getImgUrl(item.mainImage)" />
           <div>
             <span>{{ item.name }}</span>
           </div>

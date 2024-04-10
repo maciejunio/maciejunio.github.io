@@ -121,14 +121,14 @@
       {
         "name": "System logistyczny",
         "description": "Przykład aplikacji, którą stworzyłem, to System Logistyczny, który został zaprojektowany w celu usprawnienia zarządzania przepływem koszy produkcyjnych dla zleceniodawcy. Wcześniej zleceniodawca miał ograniczoną kontrolę nad ilością koszy wysyłanych do klientów oraz otrzymywanych od dostawców. Aplikacja składa się z dwóch głównych modułów: aplikacji webowej oraz aplikacji mobilnej dostępnej na skanery. W ramach systemu, pracownicy działu logistyki mają możliwość tworzenia dokumentów WZ (Wydanie Zewnętrzne) oraz PZ (Przyjęcie Zewnętrzne) w systemie. Podczas załadunku lub rozładunku TIRa, magazynierzy skanują kody QR koszy za pomocą skanera, które są automatycznie dodawane jako pozycje do odpowiedniego dokumentu WZ lub PZ. Następnie generowany jest dokument, który jest przekazywany kierowcy. System obsługuje kilka lokalizacji i umożliwia śledzenie ilości koszy dostępnych w magazynie. Dodatkowo, aplikacja umożliwia generowanie różnorodnych raportów w formacie Excel, co pozwala na dokładne monitorowanie stanu magazynowego oraz przepływu koszy produkcyjnych. Dzięki temu systemowi, zleceniodawca zyskuje pełną kontrolę nad przepływem towarów, eliminując błędy wynikające z ręcznego monitorowania.",
-        "mainImage": "src/assets/portfolio/system-logistyczny1.png",
+        "mainImage": "system-logistyczny1.png",
         "images": [
-          "src/assets/portfolio/system-logistyczny1.png",
-          "src/assets/portfolio/system-logistyczny2.png",
-          "src/assets/portfolio/system-logistyczny3.png",
-          "src/assets/portfolio/system-logistyczny4.png",
-          "src/assets/portfolio/system-logistyczny5.png",
-          "src/assets/portfolio/system-logistyczny6.png"
+          "system-logistyczny1.png",
+          "system-logistyczny2.png",
+          "system-logistyczny3.png",
+          "system-logistyczny4.png",
+          "system-logistyczny5.png",
+          "system-logistyczny6.png"
         ],
         "technologies": ["Vue", "NestJS", "MongoDB", "Ionic"],
         "projectDate": "06.2023"
@@ -136,24 +136,16 @@
       {
         "name": "Koronawirus w Polsce",
         "description": "W czasie pandemii koronawirusa, kiedy większość społeczeństwa została skonfrontowana z koniecznością pozostania w domach, postanowiłem wykorzystać ten czas produktywnie poprzez stworzenie strony internetowej umożliwiającej śledzenie aktualnych statystyk dotyczących zachorowań. Projekt ten obejmował kompleksowe zestawienia danych dotyczących liczby przypadków zarówno na poziomie krajowym, jak i międzynarodowym, uwzględniając różnorodne aspekty geograficzne, takie jak województwa i powiaty. Aplikacja została stworzona zarówno w formie aplikacji (PWA), jak i w wersji desktopowej, co umożliwiło użytkownikom łatwy dostęp do potrzebnych informacji na różnych urządzeniach. W ramach projektu stworzyłem również interaktywną mapę Polski. Codziennie aktualizowane dane gwarantowały, że informacje prezentowane na niej były zawsze aktualne, co było kluczowe w kontekście szybko zmieniającej się sytuacji epidemiologicznej. Dodatkowo, na mapie wskazywane były obowiązujące strefy obostrzeń, co było istotną wskazówką dla społeczności lokalnych. Projekt spotkał się z szerokim zainteresowaniem społecznym, osiągając w szczytowym okresie aż 200 tysięcy unikalnych użytkowników miesięcznie. Po około roku od jego uruchomienia, dane statystyczne dostarczane przez aplikację zostały wykorzystane w celach naukowych przez renomowany 'Institute of Biomedical Engineering University of Oxford', co świadczy o wysokiej jakości i użyteczności projektu.",
-        "mainImage": "src/assets/portfolio/koronawirus3.png",
-        "images": [
-          "src/assets/portfolio/koronawirus1.png",
-          "src/assets/portfolio/koronawirus2.png",
-          "src/assets/portfolio/koronawirus3.png",
-          "src/assets/portfolio/koronawirus4.png"
-        ],
+        "mainImage": "koronawirus3.png",
+        "images": ["koronawirus1.png", "koronawirus2.png", "koronawirus3.png", "koronawirus4.png"],
         "technologies": ["Vue", "NestJS", "MongoDB", "Python"],
         "projectDate": "03.2021"
       },
       {
         "name": "Uratuj spektakl",
         "description": "Na zlecenie Teatru Nowy w Łodzi miałem przyjemność stworzyć interaktywną grę edukacyjną, dedykowaną najmłodszym miłośnikom teatru.W grze, gracze wcielają się w role czterech pracowników teatru, gdzie każda misja stanowi wyjątkową przygodę. Każdy etap polega na obejrzeniu filmiku przygotowanego przez pracowników teatru, po czym gracze podejmują decyzje dotyczące wyboru ścieżki prowadzącej do spektaklu. Projekt ten nie tylko dostarcza rozrywki, ale także rozwija umiejętności logicznego myślenia oraz kreatywności u najmłodszych uczestników. Poprzez interaktywny charakter gry, dzieci mają okazję poznać kulisy teatru i zrozumieć rolę poszczególnych pracowników za kulisami, co może rozbudzić w nich zainteresowanie kulturą oraz sztuką. Gra ta stanowi nie tylko atrakcyjną formę rozrywki, ale również edukacyjne narzędzie, które integruje zabawę z nauką, inspirując dzieci do odkrywania świata teatru w nowy i interaktywny sposób.",
-        "mainImage": "src/assets/portfolio/uratuj-spektakl1.png",
-        "images": [
-          "src/assets/portfolio/uratuj-spektakl1.png",
-          "src/assets/portfolio/uratuj-spektakl2.png"
-        ],
+        "mainImage": "uratuj-spektakl1.png",
+        "images": ["uratuj-spektakl1.png", "uratuj-spektakl2.png"],
         "technologies": ["Vue"],
         "projectDate": "12.2020",
         "website": {
@@ -164,39 +156,32 @@
       {
         "name": "System monitoringu",
         "description": "Wykorzystując technologię Raspberry Pi oraz zestaw czujników temperatury, wilgotności i dymu, stworzyłem innowacyjny system monitorujący kluczowe parametry w serwerowniach. Projekt ten skupia się na ciągłym monitorowaniu warunków środowiskowych w serwerowniach. Dzięki zastosowaniu zaawansowanych czujników, system jest w stanie bieżąco rejestrować temperaturę, wilgotność oraz obecność dymu. W przypadku wykrycia anomalii, takich jak zbyt wysoka lub zbyt niska temperatura, lub pojawienie się dymu, system natychmiast informuje użytkownika poprzez wysłanie powiadomienia SMS oraz powiadomienia w dedykowanej aplikacji mobilnej. Dodatkowo, wszystkie dane pomiarowe są zapisywane do bazy danych, co umożliwia użytkownikowi wgląd w historię pomiarów. Dzięki temu, administratorzy serwerowni mogą śledzić zmiany warunków środowiskowych na przestrzeni czasu i podejmować odpowiednie działania zapobiegawcze w razie potrzeby. Projekt ten nie tylko zapewnia ciągłą ochronę infrastruktury IT poprzez monitorowanie warunków środowiskowych, ale także umożliwia szybką reakcję na wszelkie potencjalne zagrożenia, co przekłada się na zwiększenie niezawodności i bezpieczeństwa działania serwerowni.",
-        "mainImage": "src/assets/portfolio/monitoring4.png",
-        "images": [
-          "src/assets/portfolio/monitoring1.png",
-          "src/assets/portfolio/monitoring2.png",
-          "src/assets/portfolio/monitoring3.png"
-        ],
+        "mainImage": "monitoring4.png",
+        "images": ["monitoring1.png", "monitoring2.png", "monitoring3.png"],
         "technologies": ["Raspberry Pi", "Arduino", "Cordova", "Python", "MySQL"],
         "projectDate": "01.2019"
       },
       {
         "name": "Portal klienta",
         "description": "W trakcie mojej pracy jako administrator systemów, zauważyłem potrzebę stworzenia nowoczesnego narzędzia, które ułatwiłoby klientom dostęp do istotnych danych. W odpowiedzi na tę potrzebę, postanowiłem opracować innowacyjny portal, który umożliwi klientom bieżące śledzenie swoich faktur, dokumentów WZ oraz zamówień. Zadaniem tego projektu było nie tylko zapewnienie klientom wygodnego dostępu do informacji, ale również stworzenie platformy, która integruje się z systemem ERP, zapewniając płynną wymianę danych. Dzięki temu rozwiązaniu, klienci mogą mieć pewność, że prezentowane informacje są zawsze aktualne i rzetelne. Podczas projektowania tego portalu, kładłem szczególny nacisk na prostotę obsługi oraz intuicyjny interfejs użytkownika. Chciałem, aby nawet osoby nieobeznane z technologią mogły łatwo korzystać z portalu i szybko odnaleźć potrzebne informacje. W trakcie pracy nad tym projektem konsultowałem się z klientami, aby poznać ich potrzeby i oczekiwania. Portal dla klientów, który miałem przyjemność stworzyć, stał się istotnym narzędziem w firmie, umożliwiając podniesienie standardów obsługi klienta oraz budowanie silniejszych relacji z naszymi partnerami biznesowymi.",
-        "mainImage": "src/assets/portfolio/portal-klienta1.png",
-        "images": [
-          "src/assets/portfolio/portal-klienta1.png",
-          "src/assets/portfolio/portal-klienta2.png"
-        ],
+        "mainImage": "portal-klienta1.png",
+        "images": ["portal-klienta1.png", "portal-klienta2.png"],
         "technologies": ["MySQL", "Python", "JavaScript"],
         "projectDate": "04.2019"
       },
       {
         "name": "Portal działu IT",
         "description": "Pracując wcześniej jako administrator systemów, miałem okazję stworzyć aplikację internetową dla działu IT, która usprawniła pracę w całym dziale. Aplikacja została zaprojektowana z myślą o usprawnieniu zarządzania sprzętem objętym opieką działu IT, procesem wystawiania dokumentów przekazania i odbioru sprzętu oraz tworzenia listy zakupów. W odpowiedzi na wprowadzenie nowej ustawy o ochronie danych osobowych, wzbogaciłem portal o moduł RODO. Ten moduł składa się z rejestru naruszeń, spisu obszarów przetwarzania oraz spisu zbiorów danych osobowych. Dzięki niemu, użytkownicy mogą skutecznie monitorować zgodność z przepisami dotyczącymi ochrony danych osobowych, co przyczynia się do podniesienia bezpieczeństwa i zgodności naszych działań z obowiązującymi regulacjami.",
-        "mainImage": "src/assets/portfolio/portal-it1.png",
-        "images": ["src/assets/portfolio/portal-it1.png", "src/assets/portfolio/portal-it2.png"],
+        "mainImage": "portal-it1.png",
+        "images": ["portal-it1.png", "portal-it2.png"],
         "technologies": ["MySQL", "Python", "JavaScript"],
         "projectDate": "06.2019"
       },
       {
         "name": "Strona wizytówka",
         "description": "Na zlecenie klienta stworzyłem prostą stronę firmy składającą się ze strony głównej, oraz podstrony z ciekawostkami. Projekt graficzny strony był mojego autorstwa. Do całości dochodzi również autorski CMS pozwalający na dodawanie ciekawostek oraz edytownie elementów na stronie. Strona została napisana przy użyciu standardowych technologii webowych, PHP, MySQL oraz zgodnie z najnowocześniejszymi standardami SEO oraz RWD.",
-        "mainImage": "src/assets/portfolio/ema1.png",
-        "images": ["src/assets/portfolio/ema1.png", "src/assets/portfolio/ema2.png"],
+        "mainImage": "ema1.png",
+        "images": ["ema1.png", "ema2.png"],
         "technologies": ["MySQL", "PHP", "JavaScript"],
         "projectDate": "11.2018",
         "website": {

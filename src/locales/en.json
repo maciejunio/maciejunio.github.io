@@ -137,7 +137,12 @@
         "name": "Coronavirus in Poland",
         "description": "During the coronavirus pandemic, when the majority of society was faced with the necessity of staying at home, I decided to use this time productively by creating a website that allows tracking current statistics regarding infections. This project involved comprehensive compilations of data concerning the number of cases both at the national and international levels, considering various geographical aspects such as provinces and counties. The application was developed in the form of a Progressive Web App (PWA) as well as a desktop version, enabling users easy access to the necessary information on different devices. As part of the project, I also created an interactive map of Poland. The daily updated data ensured that the information presented on it was always fresh, which was crucial in the context of the rapidly changing epidemiological situation. Additionally, the map indicated the applicable restriction zones, which served as an important guideline for local communities. The project garnered widespread social interest, reaching up to 200,000 unique users per month at its peak. Approximately a year after its launch, the statistical data provided by the application was utilized for scientific purposes by the renowned Institute of Biomedical Engineering at the University of Oxford, indicating the high quality and utility of the project.",
         "mainImage": "koronawirus3.png",
-        "images": ["koronawirus1.png", "koronawirus2.png", "koronawirus3.png", "koronawirus4.png"],
+        "images": [
+          "koronawirus1.png",
+          "koronawirus2.png",
+          "koronawirus3.png",
+          "koronawirus4.png"
+        ],
         "technologies": ["Vue", "NestJS", "MongoDB", "Python"],
         "projectDate": "03.2021"
       },
@@ -145,7 +150,10 @@
         "name": "Save the show",
         "description": "On behalf of Teatr Nowy in Łódź, I had the pleasure of creating an interactive educational game dedicated to the youngest theater enthusiasts. In the game, players assume the roles of four theater employees, where each mission represents a unique adventure. Each stage involves watching a video prepared by the theater staff, after which players make decisions regarding the choice of the path leading to the spectacle. This project not only provides entertainment but also develops logical thinking skills and creativity in the youngest participants. Through the interactive nature of the game, children have the opportunity to learn about the backstage of the theater and understand the role of individual workers behind the scenes, which can foster their interest in culture and art. This game represents not only an attractive form of entertainment but also an educational tool that integrates play with learning, inspiring children to discover the world of theater in a new and interactive way.",
         "mainImage": "uratuj-spektakl1.png",
-        "images": ["uratuj-spektakl1.png", "uratuj-spektakl2.png"],
+        "images": [
+          "uratuj-spektakl1.png",
+          "uratuj-spektakl2.png"
+        ],
         "technologies": ["Vue"],
         "projectDate": "12.2020",
         "website": {
@@ -157,7 +165,11 @@
         "name": "Monitoring system",
         "description": "Using Raspberry Pi technology and a set of temperature, humidity, and smoke sensors, I have developed an innovative system for monitoring key parameters in server rooms. This project focuses on continuously monitoring environmental conditions in server rooms. By employing advanced sensors, the system is capable of continuously recording temperature, humidity, and smoke presence. In case of anomalies such as excessively high or low temperature, or the presence of smoke, the system promptly notifies the user by sending SMS alerts and notifications through a dedicated mobile application. Furthermore, all measurement data is stored in a database, allowing users to access the measurement history. This enables server room administrators to track changes in environmental conditions over time and take appropriate preventive actions if necessary. This project not only ensures continuous protection of IT infrastructure by monitoring environmental conditions but also enables swift response to any potential threats, thereby increasing the reliability and safety of server room operations",
         "mainImage": "monitoring4.png",
-        "images": ["monitoring1.png", "monitoring2.png", "monitoring3.png"],
+        "images": [
+          "monitoring1.png",
+          "monitoring2.png",
+          "monitoring3.png"
+        ],
         "technologies": ["Raspberry Pi", "Arduino", "Cordova", "Python", "MySQL"],
         "projectDate": "01.2019"
       },
@@ -165,7 +177,10 @@
         "name": "Customer application",
         "description": "During my tenure as a systems administrator, I recognized the need for creating a modern tool that would facilitate clients' access to essential data. In response to this requirement, I decided to develop an innovative portal enabling clients to track their invoices, delivery notes, and orders in real-time. The aim of this project was not only to provide clients with convenient access to information but also to create a platform that integrates seamlessly with the ERP system, ensuring smooth data exchange. Thanks to this solution, clients can rest assured that the presented information is always up-to-date and reliable. While designing this portal, I placed particular emphasis on user-friendly simplicity and intuitive user interface. I aimed to make the portal easily accessible even to individuals unfamiliar with technology, allowing them to quickly find the necessary information. Throughout the project, I consulted with clients to understand their needs and expectations better. The client portal, which I had the pleasure of creating, has become a significant tool within the company, enabling the enhancement of customer service standards and the cultivation of stronger relationships with our business partners.",
         "mainImage": "portal-klienta1.png",
-        "images": ["portal-klienta1.png", "portal-klienta2.png"],
+        "images": [
+          "portal-klienta1.png",
+          "portal-klienta2.png"
+        ],
         "technologies": ["MySQL", "Python", "JavaScript"],
         "projectDate": "04.2019"
       },

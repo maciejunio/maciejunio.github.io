@@ -25,14 +25,15 @@ const portfolioItems: Ref<PortfolioItem[]> = ref(tm('portfolio.items'))
 const selectedItem = computed(
   () => portfolioItems.value[Number(router.currentRoute.value.params.id) - 1]
 )
+const selectedItemImages = computed(() => selectedItem.value.images.map(imagePath => new URL(`../assets/portfolio/${imagePath}`, import.meta.url).href))
 </script>
 <template>
   <div v-if="selectedItem" class="container pb-10">
     <div class="text-5xl font-bold pt-16 pb-12">{{ selectedItem.name }}</div>
     <div class="grid grid-cols-3 gap-5">
       <div class="col-span-2">
-        <Carousel :items-to-show="1" :autoplay="3000">
-          <Slide v-for="slide in selectedItem.images" :key="slide">
+        <Carousel v-if="selectedItemImages.length" :items-to-show="1" :autoplay="3000">
+          <Slide v-for="slide in selectedItemImages" :key="slide">
             <img class="rounded-2xl cursor-pointer" :src="slide" />
           </Slide>
 
